@@ -18,7 +18,7 @@ let add = () => {
     let valorInput = input.value
 
     if (valorInput != "") {
-        numbers.push(parseInt(valorInput))
+        numbers.push(parseFloat(valorInput))
         mostrarNumbers()
     }
 
